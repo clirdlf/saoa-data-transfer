@@ -31,6 +31,7 @@ Edit the script to set these two variables:
 ```bash
 DROPBOX_PATH="/your/source/path"      # Dropbox folder to migrate
 BOX_PATH="/your/target/path"          # Box destination folder
+```
 
 4. (Optional) Test access:
 
