@@ -58,8 +58,8 @@ rclone ls box:/
 
 ## Customization
 
-- Adjust bandwidth limit by editing `BANDWIDTH` in the script.
-- Change concurrency by modifying `TRANSFERS` and `CHECKERS`.
+- Adjust bandwidth limit by editing [`BANDWIDTH`](https://rclone.org/docs/#bwlimit-bandwidth-spec) in the script.
+- Change concurrency by modifying [`TRANSFERS`](https://rclone.org/docs/#transfers-n) and [`CHECKERS`](https://rclone.org/docs/#checkers-n).
 
 ---
 
