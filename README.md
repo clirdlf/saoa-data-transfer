@@ -19,12 +19,20 @@ rclone config
 ```
 
    - Choose `n` for new remote.
-   - Name it `dropbox`.
-   - Select Dropbox as the provider.
+   - Name it `saoa-dropbox`.
+   - Select Dropbox as the provider (14).
    - Follow OAuth prompts.
-   - Repeat and create a remote named `box`.
+   - Repeat and create a remote named `box` (7).
 
-1. (Optional) Test access:
+1. Configuration
+
+Edit the script to set these two variables:
+
+```bash
+DROPBOX_PATH="/your/source/path"      # Dropbox folder to migrate
+BOX_PATH="/your/target/path"          # Box destination folder
+
+4. (Optional) Test access:
 
 ```bash
 rclone ls dropbox:/
