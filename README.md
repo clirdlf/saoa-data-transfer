@@ -20,9 +20,9 @@ rclone config
 
    - Choose `n` for new remote.
    - Name it `saoa-dropbox`.
-   - Select Dropbox as the provider (14).
+   - Select Dropbox as the provider (`14`).
    - Follow OAuth prompts.
-   - Repeat and create a remote named `box` (7).
+   - Repeat and create a remote named `box` (`7`).
 
 1. Configuration
 
