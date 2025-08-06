@@ -36,7 +36,7 @@ BOX_PATH="/your/target/path"          # Box destination folder
 4. (Optional) Test access:
 
 ```bash
-rclone ls dropbox:/
+rclone ls saoa-dropbox:/
 rclone ls box:/
 ```
 
