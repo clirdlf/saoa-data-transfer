@@ -11,7 +11,7 @@ if [[ "$1" == "--dry-run" ]]; then
 fi
 
 # Constants
-DROPBOX_PATH="/your/source/path"      # Change to the Dropbox folder path
+DROPBOX_PATH="Microfilm Digitization Cost Comparison"      # Change to the Dropbox folder path
 BOX_PATH="SAOA"          # Change to the Box folder path
 LOG_FILE="rclone_migration_$(date +%Y%m%d_%H%M%S).log"
 TRANSFERS=4
@@ -20,7 +20,7 @@ BANDWIDTH="100M"
 
 # Build base command
 CMD=(
-  rclone copy "saoa-dropbox:$DROPBOX_PATH" "box:$BOX_PATH"
+  rclone copy "dropbox:$DROPBOX_PATH" "box:$BOX_PATH"
   --transfers=$TRANSFERS
   --checkers=$CHECKERS
   --bwlimit=$BANDWIDTH
