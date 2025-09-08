@@ -1,11 +1,75 @@
 {
-  "generated_at": "2025-09-04T12:48:28.463387+00:00",
-  "elapsed_seconds": 253.02,
+  "generated_at": "2025-09-08T12:51:16.162263+00:00",
+  "elapsed_seconds": 553.23,
   "status": "fail",
   "counts": {
     "total_src_files": 18166,
-    "matched": 13607,
-    "missing_on_dst": 4559,
+    "matched": 18156,
+    "missing_on_dst": 10,
     "mismatches": 0
+  },
+  "total_size_bytes": 2642158271785,
+  "total_size_gb": 2642.16,
+  "per_top_level": {
+    "Sample Census Files to OCR": {
+      "all_synced": true,
+      "total_files": 10,
+      "size_bytes": 4827139,
+      "size_gb": 0.0
+    },
+    "SAOA_JSTOR_Ingest_References": {
+      "all_synced": true,
+      "total_files": 3,
+      "size_bytes": 22623867,
+      "size_gb": 0.02
+    },
+    "Tropical_Agriculturalist": {
+      "all_synced": true,
+      "total_files": 1413,
+      "size_bytes": 2657403424,
+      "size_gb": 2.66
+    },
+    "RMRL_MadrasPresidency": {
+      "all_synced": true,
+      "total_files": 1936,
+      "size_bytes": 431158002729,
+      "size_gb": 431.16
+    },
+    "RMRL_Markcist": {
+      "all_synced": true,
+      "total_files": 7287,
+      "size_bytes": 49376878776,
+      "size_gb": 49.38
+    },
+    "File requests": {
+      "all_synced": true,
+      "total_files": 260,
+      "size_bytes": 4949972673,
+      "size_gb": 4.95
+    },
+    "CSSSC_Amrita_Bazar_Patrika": {
+      "all_synced": false,
+      "total_files": 53,
+      "size_bytes": 2063197763655,
+      "size_gb": 2063.2
+    },
+    "USS-Ravenshaw-Odia_Serials": {
+      "all_synced": true,
+      "total_files": 6588,
+      "size_bytes": 77895292134,
+      "size_gb": 77.9
+    },
+    "ChanakyaSocietyTIFF": {
+      "all_synced": true,
+      "total_files": 588,
+      "size_bytes": 12714921312,
+      "size_gb": 12.71
+    },
+    "Microfilm Digitization Cost Comparison": {
+      "all_synced": true,
+      "total_files": 28,
+      "size_bytes": 180586076,
+      "size_gb": 0.18
+    }
   }
 }

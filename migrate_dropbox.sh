@@ -11,8 +11,8 @@ if [[ "$1" == "--dry-run" ]]; then
 fi
 
 # Constants
-DROPBOX_PATH="Microfilm Digitization Cost Comparison"      # Change to the Dropbox folder path
-BOX_PATH="SAOA"          # Change to the Box folder path
+DROPBOX_PATH="CSSSC_Amrita_Bazar_Patrika"      # Change to the Dropbox folder path
+BOX_PATH="SAOA/CSSSC_Amrita_Bazar_Patrika"          # Change to the Box folder path
 LOG_FILE="rclone_migration_$(date +%Y%m%d_%H%M%S).log"
 TRANSFERS=4
 CHECKERS=8
