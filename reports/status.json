@@ -1,11 +1,11 @@
 {
-  "generated_at": "2025-09-08T12:51:16.162263+00:00",
-  "elapsed_seconds": 553.23,
-  "status": "fail",
+  "generated_at": "2025-09-09T11:19:39.526886+00:00",
+  "elapsed_seconds": 366.89,
+  "status": "pass",
   "counts": {
     "total_src_files": 18166,
-    "matched": 18156,
-    "missing_on_dst": 10,
+    "matched": 18166,
+    "missing_on_dst": 0,
     "mismatches": 0
   },
   "total_size_bytes": 2642158271785,
@@ -17,17 +17,17 @@
       "size_bytes": 4827139,
       "size_gb": 0.0
     },
-    "SAOA_JSTOR_Ingest_References": {
-      "all_synced": true,
-      "total_files": 3,
-      "size_bytes": 22623867,
-      "size_gb": 0.02
-    },
     "Tropical_Agriculturalist": {
       "all_synced": true,
       "total_files": 1413,
       "size_bytes": 2657403424,
       "size_gb": 2.66
+    },
+    "File requests": {
+      "all_synced": true,
+      "total_files": 260,
+      "size_bytes": 4949972673,
+      "size_gb": 4.95
     },
     "RMRL_MadrasPresidency": {
       "all_synced": true,
@@ -41,23 +41,23 @@
       "size_bytes": 49376878776,
       "size_gb": 49.38
     },
-    "File requests": {
-      "all_synced": true,
-      "total_files": 260,
-      "size_bytes": 4949972673,
-      "size_gb": 4.95
-    },
-    "CSSSC_Amrita_Bazar_Patrika": {
-      "all_synced": false,
-      "total_files": 53,
-      "size_bytes": 2063197763655,
-      "size_gb": 2063.2
-    },
     "USS-Ravenshaw-Odia_Serials": {
       "all_synced": true,
       "total_files": 6588,
       "size_bytes": 77895292134,
       "size_gb": 77.9
+    },
+    "SAOA_JSTOR_Ingest_References": {
+      "all_synced": true,
+      "total_files": 3,
+      "size_bytes": 22623867,
+      "size_gb": 0.02
+    },
+    "CSSSC_Amrita_Bazar_Patrika": {
+      "all_synced": true,
+      "total_files": 53,
+      "size_bytes": 2063197763655,
+      "size_gb": 2063.2
     },
     "ChanakyaSocietyTIFF": {
       "all_synced": true,

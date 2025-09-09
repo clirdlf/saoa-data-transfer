@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-09-08T12:51:16.162263+00:00",
-  "elapsed_seconds": 553.23,
+  "generated_at": "2025-09-09T11:19:39.526886+00:00",
+  "elapsed_seconds": 366.89,
   "src_remote": "dropbox:",
   "dst_remote": "box:/SAOA",
   "src_root": "/",
@@ -17,8 +17,8 @@
   ],
   "counts": {
     "total_src_files": 18166,
-    "matched": 18156,
-    "missing_on_dst": 10,
+    "matched": 18166,
+    "missing_on_dst": 0,
     "mismatches": 0
   },
   "total_size_bytes": 2642158271785,
@@ -33,15 +33,6 @@
       "all_synced": true,
       "size_gb": 0.0
     },
-    "SAOA_JSTOR_Ingest_References": {
-      "total_files": 3,
-      "missing": 0,
-      "mismatches": 0,
-      "size_bytes": 22623867,
-      "matched": 3,
-      "all_synced": true,
-      "size_gb": 0.02
-    },
     "Tropical_Agriculturalist": {
       "total_files": 1413,
       "missing": 0,
@@ -50,6 +41,15 @@
       "matched": 1413,
       "all_synced": true,
       "size_gb": 2.66
+    },
+    "File requests": {
+      "total_files": 260,
+      "missing": 0,
+      "mismatches": 0,
+      "size_bytes": 4949972673,
+      "matched": 260,
+      "all_synced": true,
+      "size_gb": 4.95
     },
     "RMRL_MadrasPresidency": {
       "total_files": 1936,
@@ -69,24 +69,6 @@
       "all_synced": true,
       "size_gb": 49.38
     },
-    "File requests": {
-      "total_files": 260,
-      "missing": 0,
-      "mismatches": 0,
-      "size_bytes": 4949972673,
-      "matched": 260,
-      "all_synced": true,
-      "size_gb": 4.95
-    },
-    "CSSSC_Amrita_Bazar_Patrika": {
-      "total_files": 53,
-      "missing": 10,
-      "mismatches": 0,
-      "size_bytes": 2063197763655,
-      "matched": 43,
-      "all_synced": false,
-      "size_gb": 2063.2
-    },
     "USS-Ravenshaw-Odia_Serials": {
       "total_files": 6588,
       "missing": 0,
@@ -95,6 +77,24 @@
       "matched": 6588,
       "all_synced": true,
       "size_gb": 77.9
+    },
+    "SAOA_JSTOR_Ingest_References": {
+      "total_files": 3,
+      "missing": 0,
+      "mismatches": 0,
+      "size_bytes": 22623867,
+      "matched": 3,
+      "all_synced": true,
+      "size_gb": 0.02
+    },
+    "CSSSC_Amrita_Bazar_Patrika": {
+      "total_files": 53,
+      "missing": 0,
+      "mismatches": 0,
+      "size_bytes": 2063197763655,
+      "matched": 53,
+      "all_synced": true,
+      "size_gb": 2063.2
     },
     "ChanakyaSocietyTIFF": {
       "total_files": 588,
@@ -115,57 +115,6 @@
       "size_gb": 0.18
     }
   },
-  "missing_on_box": [
-    {
-      "path": "CSSSC_Amrita_Bazar_Patrika/Amrita_Bazar_Patrika [Bi-Weekly]_11 Tapan Paul.rar",
-      "size": 22331791580,
-      "modtime": 1673406602.0
-    },
-    {
-      "path": "CSSSC_Amrita_Bazar_Patrika/Amrita_Bazar_Patrika [Daily]_2 Tapan Paul.rar",
-      "size": 44341405979,
-      "modtime": 1674189488.0
-    },
-    {
-      "path": "CSSSC_Amrita_Bazar_Patrika/Tapan Paul - Amrita_Bazar_Patrika [Daily]_32.rar",
-      "size": 42863550190,
-      "modtime": 1675742444.0
-    },
-    {
-      "path": "CSSSC_Amrita_Bazar_Patrika/Tapan Paul - Amrita_Bazar_Patrika [Daily]_33.rar",
-      "size": 40650598101,
-      "modtime": 1675747766.0
-    },
-    {
-      "path": "CSSSC_Amrita_Bazar_Patrika/Tapan Paul - Amrita_Bazar_Patrika [Daily]_34.rar",
-      "size": 38474493243,
-      "modtime": 1675748550.0
-    },
-    {
-      "path": "CSSSC_Amrita_Bazar_Patrika/Tapan Paul - Amrita_Bazar_Patrika [Daily]_35.rar",
-      "size": 37148572945,
-      "modtime": 1675753390.0
-    },
-    {
-      "path": "CSSSC_Amrita_Bazar_Patrika/Tapan Paul - Amrita_Bazar_Patrika [Daily]_36.rar",
-      "size": 37286278451,
-      "modtime": 1675821172.0
-    },
-    {
-      "path": "CSSSC_Amrita_Bazar_Patrika/Tapan Paul - Amrita_Bazar_Patrika [Daily]_37.rar",
-      "size": 37305494986,
-      "modtime": 1675906859.0
-    },
-    {
-      "path": "CSSSC_Amrita_Bazar_Patrika/Tapan Paul - Amrita_Bazar_Patrika [Daily]_39.rar",
-      "size": 37857682420,
-      "modtime": 1675917432.0
-    },
-    {
-      "path": "CSSSC_Amrita_Bazar_Patrika/Tapan Paul - Amrita_Bazar_Patrika [Daily]_40.rar",
-      "size": 36669531618,
-      "modtime": 1675922380.0
-    }
-  ],
+  "missing_on_box": [],
   "mismatches": []
 }

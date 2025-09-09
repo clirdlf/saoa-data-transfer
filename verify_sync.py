@@ -385,9 +385,14 @@ def write_html(summary: dict, missing: List[dict], mismatches: List[dict], per_t
 
   <h2 id="missing">Missing on Box ({len(missing)})</h2>
   <table>
-    <thead><tr><th>Path (relative)</th><th>Size (bytes)</th><th>Source Modtime (UTC)</th></tr></thead>
+    <thead><tr><th>Path (relative)</th><th>Size (GB)</th><th>Source Modtime (UTC)</th></tr></thead>
     <tbody>
-      {"".join(f"<tr><td>{m['path']}</td><td>{m.get('size','')}</td><td>{fmt_ts(m.get('modtime'))}</td></tr>" for m in missing)}
+      {"".join(
+        f"<tr><td>{m['path']}</td>"
+        f"<td>{round(bytes_to_gb(m['size']), 2) if m.get('size') else ''}</td>"
+        f"<td>{fmt_ts(m.get('modtime'))}</td></tr>"
+        for m in missing
+      )}
     </tbody>
   </table>
 
@@ -400,7 +405,7 @@ def write_html(summary: dict, missing: List[dict], mismatches: List[dict], per_t
   </table>
 
   <hr/>
-  <p class="meta">JSON detail: <code>{os.path.basename(JSON_PATH)}</code> • CSV: <code>{os.path.basename(CSV_PATH)}</code> • Status: <code>{os.path.basename(STATUS_PATH)}</code></p>
+  <p class="meta">JSON detail: <code><a href="{os.path.basename(JSON_PATH)}">{os.path.basename(JSON_PATH)}</a></code> • CSV: <code><a href="{os.path.basename(CSV_PATH)}">{os.path.basename(CSV_PATH)}</a></code> • Status: <code><a href="{os.path.basename(STATUS_PATH)}">{os.path.basename(STATUS_PATH)}</a></code></p>
 </body>
 </html>
 """
